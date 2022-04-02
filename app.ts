@@ -1,13 +1,14 @@
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
+import path from 'path';
 
 dotenv.config();
 
 const app: Express = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Server');
+  res.sendFile(path.join(__dirname, '../views/html/index.html'));
 });
 
 app.listen(port, () => {
