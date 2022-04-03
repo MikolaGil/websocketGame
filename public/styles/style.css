@@ -1,0 +1,96 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+* {
+    font-family: 'Atarian';
+    font-size: large;
+}
+
+.header{
+    display:grid;
+    height: 10vh;
+    grid-template-columns: 50px auto 100px;
+}
+
+.header div{
+    background-color: rgba(236, 34, 34, 0.8);
+    text-align: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 85vh;
+}
+
+.main_stat{
+    display: grid;
+}
+
+.main div{
+    background-color: rgba(79, 180, 124, 0.8);
+    text-align: center;
+}
+
+.main_battlefield{
+    height: 100%;
+    display: grid;
+    align-self: center;
+    border:  1px solid;
+}
+
+.stat_info{
+    display: grid;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.field{
+    margin: auto;
+    border: 1px solid;
+    height: 70vh;
+    width: 70%;
+}
+
+.footer{
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.footer div{
+    background-color: rgba(82, 57, 221, 0.8);
+    text-align: center;
+    
+}
+/* .container_header{ grid-area: head;}
+.container_main{ grid-area: main; }
+.container_footer{ grid-area: footer; }
+
+.container{
+    display: grid;
+    grid-template-areas: 'head main footer';
+    gap: 10px;
+    background-color: #2196F3;
+    height: 100%;
+}
+
+.container div {
+    background-color: rgba(70, 112, 36, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.container_header{
+    height: 20%;
+    border: 1px solid ;
+}
+
+.container_main{
+    height: 70%;
+    border: 1px solid ;
+}
+.container_footer{
+    height: 10%;
+} */
