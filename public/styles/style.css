@@ -1,0 +1,73 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+* {
+    font-family: 'Atarian';
+}
+.header{
+    display:grid;
+    height: 10vh;
+    grid-template-columns: 50px auto 100px;
+}
+
+.header div{
+    background-color: rgba(236, 34, 34, 0.8);
+    text-align: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 80vh;
+}
+
+.main div{
+    background-color: rgba(79, 180, 124, 0.8);
+    text-align: center;
+}
+
+.main_battlefield{
+    border:  1px solid;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.footer div{
+    background-color: rgba(82, 57, 221, 0.8);
+    text-align: center;
+    height: 10vh;
+}
+/* .container_header{ grid-area: head;}
+.container_main{ grid-area: main; }
+.container_footer{ grid-area: footer; }
+
+.container{
+    display: grid;
+    grid-template-areas: 'head main footer';
+    gap: 10px;
+    background-color: #2196F3;
+    height: 100%;
+}
+
+.container div {
+    background-color: rgba(70, 112, 36, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.container_header{
+    height: 20%;
+    border: 1px solid ;
+}
+
+.container_main{
+    height: 70%;
+    border: 1px solid ;
+}
+.container_footer{
+    height: 10%;
+} */
