@@ -3,7 +3,9 @@
 
 * {
     font-family: 'Atarian';
+    font-size: large;
 }
+
 .header{
     display:grid;
     height: 10vh;
@@ -17,8 +19,12 @@
 
 .main{
     display: grid;
-    grid-template-columns: 70% 30%;
-    height: 80vh;
+    grid-template-columns: 80% 20%;
+    height: 85vh;
+}
+
+.main_stat{
+    display: grid;
 }
 
 .main div{
@@ -27,10 +33,27 @@
 }
 
 .main_battlefield{
+    height: 100%;
+    display: grid;
+    align-self: center;
     border:  1px solid;
 }
 
+.stat_info{
+    display: grid;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.field{
+    margin: auto;
+    border: 1px solid;
+    height: 70vh;
+    width: 70%;
+}
+
 .footer{
+    height: 5vh;
     display: grid;
     grid-template-columns: 70% 30%;
 }
@@ -38,7 +61,7 @@
 .footer div{
     background-color: rgba(82, 57, 221, 0.8);
     text-align: center;
-    height: 10vh;
+    
 }
 /* .container_header{ grid-area: head;}
 .container_main{ grid-area: main; }
